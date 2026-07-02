@@ -25,6 +25,7 @@ venv/
 env/
 ENV/
 python_embed/
+VideoCreatorAI/python_embed/
 
 # Environment variables
 .env
