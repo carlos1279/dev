@@ -1,0 +1,38 @@
+model_list:
+  - model_name: claude-3-5-sonnet-20241022
+    litellm_params:
+      model: groq/llama-3.3-70b-versatile
+      api_key: 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
+      api_base: https://api.groq.com/openai/v1
+
+  - model_name: claude-3-5-sonnet-latest
+    litellm_params:
+      model: groq/llama-3.3-70b-versatile
+      api_key: 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
+      api_base: https://api.groq.com/openai/v1
+
+  - model_name: llama-3.3-70b-versatile
+    litellm_params:
+      model: groq/llama-3.3-70b-versatile
+      api_key: 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
+      api_base: https://api.groq.com/openai/v1
+
+  - model_name: claude-opus-4-5
+    litellm_params:
+      model: groq/llama-3.3-70b-versatile
+      api_key: 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
+      api_base: https://api.groq.com/openai/v1
+
+  - model_name: claude-sonnet-4-5
+    litellm_params:
+      model: groq/llama-3.3-70b-versatile
+      api_key: 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
+      api_base: https://api.groq.com/openai/v1
+
+litellm_settings:
+  drop_params: true
+  success_callback: []
+  max_tokens: 512
+
+general_settings:
+  master_key: "sk-fake-key-for-claude-code"

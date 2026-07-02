@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+python_embed/
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VideoCreatorAI specific
+VideoCreatorAI/media/
+VideoCreatorAI/output/
+VideoCreatorAI/temp_ffmpeg/
+VideoCreatorAI/voiceover.mp3
+VideoCreatorAI/script.json
+VideoCreatorAI/visual_prompts.txt
+VideoCreatorAI/timestamps.json
+VideoCreatorAI/subtitles.ass
+
+# Logs
+*.log
