@@ -36,6 +36,14 @@ VideoCreatorAI/python_embed/
 *.swp
 *.swo
 *~
+.claude/
+
+# Project specific
+litellm_config.yaml
+llama_proxy.py
+plan.md
+start_*.bat
+test_*.py
 
 # OS
 .DS_Store
